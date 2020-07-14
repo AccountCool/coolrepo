@@ -1,8 +1,6 @@
 @echo off
-for /f "delims=" %%i in ('curl https://raw.githubusercontent.com/AccountCool/coolrepo/master/cool') do set VAR=%%i
-start firefox %VAR%
+start firefox "https://zap563172-1.plesk13.zap-webspace.com/"
 :loop
 timeout /t 600 > NUL
-for /f "delims=" %%i in ('curl https://raw.githubusercontent.com/AccountCool/coolrepo/master/cool') do set VAR=%%i
-start firefox %VAR%
+start firefox "https://zap563172-1.plesk13.zap-webspace.com/"
 goto loop
